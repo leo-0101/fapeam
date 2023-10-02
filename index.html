@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório - FAPEAM</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="form-image">
+            <img src="assets/img/form.svg" alt="">
+        </div>
+        <div class="form">
+
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Relatórios</h1>
+                    </div>
+                    <!--<div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>-->
+                </div>
+
+                <div class="input-group"> <!--INCLUI TODOS OS INPUTS-->
+
+                    <div class="input-box">
+                        <label for="num-relatorio">Número do relatório: </label>
+                        <input id="num-relatorio" type="number" name="num-relatorio" placeholder="n xxxx-xxxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="num-constatacao">Número da constatação: </label>
+                        <input id="num-constatacao" type="number" name="num-constatacao" placeholder="n xxxx-xxxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="recomendacao">Recomendação: </label>
+                        <textarea name="Recomendação" id="recomendacao" cols="30" rows="4" style="resize: none;" required></textarea>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="situacao">Situação: </label>
+                        <textarea name="situacao" id="situacao" cols="30" rows="4" style="resize: none;" required></textarea>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="data-limite">Data Limite: </label>
+                        <input type="date" name="data-limite" id="data-limite" required>
+                    </div>
+                </div>
+                <div class="enviar-relatorio">
+                    <button type="submit">Enviar relatório</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
